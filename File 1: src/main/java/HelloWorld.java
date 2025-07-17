@@ -1,9 +1,11 @@
 public class HelloWorld {
     public String sayHello() {
-        return "Hello, World!";
+        return "Hello from GitHub Actions!";
+
     }
 
     public static void main(String[] args) {
-        System.out.println(new HelloWorld().sayHello());
+       assertEquals("Hello from GitHub Actions!", hello.sayHello());
+
     }
 }
